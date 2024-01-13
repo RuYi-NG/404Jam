@@ -123,6 +123,69 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &262635929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 262635930}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &262635930
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262635929}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -58.58565, y: -25.18721, z: 191.56296}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &332310598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 332310599}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &332310599
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332310598}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -58.585655, y: -25.187199, z: 313}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1530069118}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1067345922
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -217,19 +280,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 332310599}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 1e268ca4a002c4868bc0392b17ac2dbf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 58.585655
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1e268ca4a002c4868bc0392b17ac2dbf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0
+      value: 25.187199
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1e268ca4a002c4868bc0392b17ac2dbf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 98.3
+      value: -147.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1e268ca4a002c4868bc0392b17ac2dbf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -241,7 +304,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1e268ca4a002c4868bc0392b17ac2dbf, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1e268ca4a002c4868bc0392b17ac2dbf, type: 3}
       propertyPath: m_LocalRotation.z
@@ -297,6 +360,11 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &1530069118 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1e268ca4a002c4868bc0392b17ac2dbf, type: 3}
+  m_PrefabInstance: {fileID: 1530069113}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1790815000
 GameObject:
   m_ObjectHideFlags: 0
@@ -488,6 +556,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 2065604021}
+  - {fileID: 262635930}
   - {fileID: 1790815002}
   - {fileID: 1067345922}
-  - {fileID: 1530069113}
+  - {fileID: 332310599}
