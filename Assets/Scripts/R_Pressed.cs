@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class R_Pressed : MonoBehaviour
 {
-    public AudioSource Esound;
+    public AudioSource Rsound;
     // Start is called before the first frame update
     void Start()
     {
