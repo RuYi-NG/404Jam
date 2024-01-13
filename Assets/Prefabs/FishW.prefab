@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2622407824889716245}
-  - component: {fileID: -5033508770193796585}
   m_Layer: 0
   m_Name: FishW
   m_TagString: Untagged
@@ -33,18 +32,6 @@ Transform:
   - {fileID: 8836781875785061597}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-5033508770193796585
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3130097928884934936}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abc748bef2b2b0a4ab7c9b3df2dcad87, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3623874387242190678
 GameObject:
   m_ObjectHideFlags: 0
