@@ -5,7 +5,7 @@ using UnityEngine;
 public class PatrolBehavior : MonoBehaviour
 {
     public Transform[] patrolPoints; // Assign in inspector
-    public float speed = 5f;
+    [SerializeField] public float speed = 5f;
     private int currentPointIndex = 0;
 
     void Update()
