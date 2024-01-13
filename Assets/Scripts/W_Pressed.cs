@@ -5,18 +5,13 @@ using UnityEngine;
 public class W_Pressed : MonoBehaviour
 {
     public AudioSource Wsound;
-    // Start is called before the first frame update
-    void Start()
-    {
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            Wsound.Play();
-        }
-    }
-
+    public KeyCode keyCode;
     // Update is called once per frame
     void Update()
     {
-
+        if (Input.GetKeyDown(keyCode))
+        {
+            Wsound.Play();
+        }
     }
 }

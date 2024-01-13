@@ -5,18 +5,14 @@ using UnityEngine;
 public class Q_Pressed : MonoBehaviour
 {
     public AudioSource Qsound;
-    // Start is called before the first frame update
-    void Start()
-    {
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            Qsound.Play();
-        }
-    }
-
+    public KeyCode keyCode;
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(keyCode))
+        {
+            Debug.Log("hi");
+            Qsound.Play();
+        }
     }
 }
