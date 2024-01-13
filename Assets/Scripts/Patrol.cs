@@ -47,7 +47,7 @@ public class PatrolBehavior : MonoBehaviour
     {
         if (!objectRenderer || !mainCamera)
         {
-            return;
+            return false;
         }
             Plane[] planes = GeometryUtility.CalculateFrustumPlanes(mainCamera);
             return GeometryUtility.TestPlanesAABB(planes, objectRenderer.bounds);
